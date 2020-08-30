@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+            crossorigin="anonymous"
+        />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+        <title></title>
+    </head>
+    <body>
+        <div class="container">
+            <section class="left">
+                <h1>Learn to code by watching others</h1>
+                <p>
+                    See how experienced developers solve problems in real-time.
+                    Watching scripted tutorials is great, but understanding how
+                    developers think is invaluable.
+                </p>
+            </section>
+            <section class="right">
+                <div class="try-btn">
+                    <span>Try it for free for 7 days</span> then $20/mo.
+                    thereafter
+                </div>
+                <form class="login" id="login-form">
+                    <input
+                        type="text"
+                        name="firstname"
+                        placeholder="First Name"
+                        value=""
+                        title="Enter your First Name"
+                        autofocus
+                    />
+                    <span class="error" id="firstname-error"></span>
+
+                    <input
+                        type="text"
+                        name="lastname"
+                        placeholder="Last Name"
+                        value=""
+                        title="Enter your Last Name"
+                    />
+                    <span class="error" id="lastname-error"></span>
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email Address"
+                        value=""
+                        title="Enter your E-mail Address"
+                    />
+                    <span class="error" id="email-error"></span>
+
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="Password"
+                        value=""
+                        title="Create a Strong Password"
+                    />
+                    <span class="error" id="password-error"></span>
+
+                    <button type="submit" id="submit" class="submit-btn">
+                        Claim your free trial
+                    </button>
+
+                    <p class="bottom-text">
+                        By clicking the button, you are agreeing to our
+                        <a href="#">Terms and Services</a>
+                    </p>
+                </form>
+            </section>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
